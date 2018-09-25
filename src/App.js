@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import WeatherLocation from './components/WeatherLocation';
+import WeatherLocation from './components/WeatherLocation/';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        Weather App (aplicación del clima)!
         <WeatherLocation></WeatherLocation>
       </div>
     );

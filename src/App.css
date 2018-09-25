@@ -1,5 +1,10 @@
+
+#root {
+  text-align: center !important;
+}
 .App {
   text-align: center;
+  display: inline-block;
 }
 
 .App-logo {
